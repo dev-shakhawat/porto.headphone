@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar"
 import Banner from "./components/Banner"
 import Devices from "./components/Devices"
 import Specification from "./components/Specification"
+import Reviews from "./components/Reviews"
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Banner/>
       <Devices/>
       <Specification/>
+      <Reviews/>
     </div>
   )
 }
