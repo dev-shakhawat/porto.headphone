@@ -12,7 +12,7 @@ import cart from '../assets/cart.svg'
 const Navbar = () => {
     const navlinks = ["Intro" , "Features" , "Tour" , "Specifications" , "Reviews" , "Buy Now"]
   return (
-    <div className='py-4'>
+    <div className='py-8 bg-[#eff1f3] fixed top-0 left-0 w-full z-50 '>
         <div className="container">
             <div className="flex items-center justify-between  ">
                 <div className="flex items-center">
