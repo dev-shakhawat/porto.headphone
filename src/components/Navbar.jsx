@@ -10,6 +10,7 @@ import cart from '../assets/cart.svg'
 
 
 const Navbar = () => {
+    const navlinks = ["Intro" , "Features" , "Tour" , "Specifications" , "Reviews" , "Buy Now"]
   return (
     <div className='py-4'>
         <div className="container">
@@ -19,12 +20,7 @@ const Navbar = () => {
 
                    {/* nav links */}
                    <ul className='ml-[48px] flex gap-10 font-popiens font-semibold text-[14px]  '>
-                       <li><a href="#" className='navlink'>Intro</a></li>
-                       <li><a href="#" className='navlink'>Features</a></li>
-                       <li><a href="#" className='navlink'>Tour</a></li>
-                       <li><a href="#" className='navlink'>Specifications</a></li>
-                       <li><a href="#" className='navlink'>Reviews</a></li>
-                       <li><a href="#" className='navlink'>Buy Now</a></li>
+                    {navlinks.map((link , index) => <li key={index} > <a href="#" className='navlink'> {link}</a></li>)}
                    </ul>
                 </div>
 
