@@ -33,7 +33,7 @@ const ViewProduct = () => {
   return (
     <div className="  ">
       <img src={shap7} alt="shap7" className="relative z-1 " />
-      <div className="bg-section relative">
+      <div className="bg-section pb-[76px] relative">
         <div className="container">
           <div className="flex">
             {/* slider part */}
