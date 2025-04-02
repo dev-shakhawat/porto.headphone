@@ -47,7 +47,7 @@ const Devices = () => {
       </div>
 
       {/* row two */}
-      <div className="bg-[#eff1f3] mt-[100px] pt-10">
+      <div className="bg-section mt-[100px] pt-10">
         <div className="container">
           <div className="flex">
             <div className="w-1/2 mt-[48px]  ">

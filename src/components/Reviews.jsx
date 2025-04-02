@@ -9,8 +9,8 @@ import wire from "../assets/product-wire.jpg";
 
 const Reviews = () => {
   return (
-    <div className="mt-20 relative overflow-hidden  ">
-        <img src={wire} alt="wire" className="absolute bottom-0 right-[-100px] w-[400px]    " />
+    <div className="mt-20 relative   ">
+        <img src={wire} alt="wire" className="absolute bottom-[-160px] right-[-100px] w-[500px]    " />
       <div className="container">
         <div className="text-center     ">
           <p className="cmnTitle">for buyers</p>

@@ -50,7 +50,7 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#eff1f3] h-[215px]">
+      <div className="bg-section h-[215px]">
         <img src={bnrshap} alt="bnrshap" className=" object-cover w-full h-full  " />
       </div>
     </div>

@@ -4,6 +4,7 @@ import Banner from "./components/Banner"
 import Devices from "./components/Devices"
 import Specification from "./components/Specification"
 import Reviews from "./components/Reviews"
+import ViewProduct from "./components/ViewProduct"
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Devices/>
       <Specification/>
       <Reviews/>
+      <ViewProduct/>
     </div>
   )
 }

@@ -11,6 +11,7 @@
   --color-brand: #ef524e;
   --color-primary: #212529;
   --color-secondary: #777777;
+  --color-section: #eff1f3;
 }
 
 @utility container {
