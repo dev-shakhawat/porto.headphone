@@ -8,6 +8,7 @@ import ViewProduct from "./components/ViewProduct"
 import Explore from "./components/Explore"
 import PaySupReturn from "./components/PaySupReturn"
 import Newsletter from "./components/Newsletter"
+import Footer from "./components/Footer"
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Explore/>
       <PaySupReturn/>
       <Newsletter/>
+      <Footer/>
     </div>
   )
 }

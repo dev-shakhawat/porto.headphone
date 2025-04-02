@@ -17,7 +17,7 @@ const Newsletter = () => {
 
                 {/* form */}
                 <form action="#" className="flex bg-white w-[55%] ">
-                    <input type="text" className=' py-4 pl-6 w-full   ' placeholder='Your E-mail Address' />
+                    <input type="text" className=' py-4 pl-6 w-full text-secondary outline-brand/20    ' placeholder='Your E-mail Address' />
                     <button type='button'  className='py-4 px-[49px] bg-brand text-white font-bold text-base leading-[25px] w-[350px] uppercase '>subscribe now!</button>
                 </form>
             </div>
